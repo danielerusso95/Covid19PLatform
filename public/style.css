@@ -1,0 +1,63 @@
+* {
+  font-family: "Spinnaker", sans-serif;
+}
+
+:root {
+  --color-main: #1b1b1b;
+  --color-sec: #e8e8e8;
+  --color-accent: #eb8322;
+}
+
+body {
+  background-color: var(--color-main);
+}
+
+.main-color {
+  color: var(--color-main);
+}
+
+.sec-color {
+  color: var(--color-sec);
+}
+
+.accent-color {
+  color: var(--color-accent);
+}
+
+.border-custom {
+  border: 3px outset #eb8322;
+  border-radius: 0px 15px 0px 15px;
+  box-shadow: var(--color-accent) 1px 1px 10px 1px;
+}
+
+.title-border {
+  border-bottom: 5px dashed #eb8322;
+}
+
+#cardWrapper {
+  height: 53vh;
+  overflow-y: scroll;
+}
+
+#cardWrapper::-webkit-scrollbar-track {
+  margin: 10px;
+  background-color: var(--color-main);
+}
+
+#cardWrapper::-webkit-scrollbar {
+  width: 6px;
+  background-color: var(--color-main);
+}
+
+#cardWrapper::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.521);
+}
+
+.card {
+  min-width: 150px;
+  height: 150px;
+}
+
+#myChart {
+  min-height: 53vh;
+}

@@ -1,5 +1,5 @@
 import totalCases from "./totalCases.js";
-import actualCases from "./actualCases.js";
+
 import chart from "./chart.js";
 
 fetch(

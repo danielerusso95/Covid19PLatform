@@ -41,7 +41,7 @@ export default function chart(data, id) {
       responsive: true,
       plugins: {
         legend: {
-          display: false,
+          display: true,
           position: "top",
         },
         title: {
@@ -52,7 +52,8 @@ export default function chart(data, id) {
       scales: {
         x: {
           type: "category",
-          display: false,
+          display: true,
+          position: "bottom",
         },
         y: {
           ticks: { stepSize: 50000 },
